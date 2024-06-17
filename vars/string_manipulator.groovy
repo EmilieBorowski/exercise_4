@@ -7,5 +7,5 @@ def string_reverse(String message) {
 
 def uppercase(String message) {
     String upper = message.toUpperCase()
-    echo upper 
+    echo upper
 }
