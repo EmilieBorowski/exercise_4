@@ -1,7 +1,11 @@
-def string_reverse(message) {
-    echo string_reverse(message)
+import javax.swing.plaf.metal.MetalFileChooserUI
+
+def string_reverse(String message) {
+    String reversed = message.reverse();
+    echo reversed
 }
 
-def uppercase(message) {
-    echo uppercase(message)
+def uppercase(String message) {
+    String upper = message.toUpperCase()
+    echo upper 
 }
